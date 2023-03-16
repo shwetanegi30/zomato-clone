@@ -1,0 +1,40 @@
+.top-brands{
+    padding-top: 30px;
+}
+.top-brands-cover{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    box-shadow:  rgb(0 0 0 / 8%) 0px 3px 12px ;
+    border: 0.5px solid white;
+}
+.top-brands-image{
+    width: 75%;
+    object-fit: cover;
+    margin-left: 12px;
+    margin-top: 14px;
+}
+.brand-name{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    margin-top: 38px;
+}
+.brand-time{
+    text-align: center;
+    font-size: 15px;
+    font-weight: 300;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+
+@media screen and (max-width:500px) {
+
+    .brand-name,
+    .brand-time{
+        font-size: 10px;
+    }
+}

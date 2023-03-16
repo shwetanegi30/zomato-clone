@@ -1,0 +1,101 @@
+.header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    margin-top: 13px;
+}
+
+.zomato-logo{
+    max-width: 11%;
+    height: 30px;
+}
+.header-right{
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+    /* height: 72px; */
+}
+.search-container{
+    width: 70%;
+    height: 54px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid rgb(232,232,232);
+    box-shadow: rgb(28 28 28 / 8%) 0px 2px 8px;
+    border-radius: 8px;
+    margin-left: 35px;
+}
+.location-wrapper{
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 8px 0 13px
+}
+.location-icon{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+   
+}
+.header-profile-image{
+    width: 23%;
+}
+.location-icon-icon{
+    color: #ff7e8b;
+    font-size: 20px;
+    margin-right: 8px;
+}
+.location-name{
+    color: #828282;
+}
+.header-search-bar{
+    flex: 2;
+    padding: 0 15px
+}
+.location-search-separator{
+    height: 20px;
+    border: 1px solid #adb5bd;
+}
+.color-change{
+    color: #828282;
+}
+.search-input{
+    width: 90%;
+    outline: none;
+    padding-left: 15px;
+    border: none;
+    font-size: 17px;
+}
+.angle-down{
+    font-size: 15px;
+    padding-left: 5px;
+}
+
+
+@media screen and (max-width:500px) {
+
+    .zomato-logo{
+        margin-left: 25px;
+        height: 18px;
+    }
+    .search-container{
+        display: none;
+    }
+    .profile-wrapper{
+        margin-left: 115px
+    }
+    .header-profile-image{
+        width: 18%;
+    }
+    .header-username{
+        font-size: 13px;
+    }
+    .angle-down{
+        font-size: 13px;
+    }
+}
